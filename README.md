@@ -1,13 +1,15 @@
 ## Spring Integration
 
-This module contains articles about Spring Integration
+This module contains article about Spring Integration
 
-### Relevant Articles:
-- [Introduction to Spring Integration](https://www.baeldung.com/spring-integration)
-- [Security In Spring Integration](https://www.baeldung.com/spring-integration-security)
-- [Spring Integration Java DSL](https://www.baeldung.com/spring-integration-java-dsl)
-- [Using Subflows in Spring Integration](https://www.baeldung.com/spring-integration-subflows)
-- [Transaction Support in Spring Integration](https://www.baeldung.com/spring-integration-transaction)
+Connects to Oracle using ojdbc7
+
+Needs a table
+CREATE TABLE SIntegration(
+    msgid NUMBER,    
+    msg VARCHAR2(50) NOT NULL,
+    PRIMARY KEY(msgid)
+);
 
 ### Running the Sample
-Executing the `mvn exec:java` maven command (either from the command line or from an IDE) will start up the application. Follow the command prompt for further instructions.
+Run the test
